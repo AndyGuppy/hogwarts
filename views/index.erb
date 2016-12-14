@@ -1,0 +1,22 @@
+
+<h2>   Hogwarts School of Idiots</h2>
+
+<% for student in @students   %>
+
+<tr>
+<td><p>First Name: <%= student.first_name  %></p></td>
+</tr>
+<tr>
+<td><p>Last Name: <%= student.second_name  %></p></td>
+</tr>
+<tr>
+<td><p>House: <%= student.house  %></p></td>
+</tr>
+<tr>
+<td><p>Age: <%= student.age  %></p></td>
+</tr>
+<hr>
+<br>
+
+
+<% end %>
