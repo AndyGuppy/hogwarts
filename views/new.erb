@@ -13,11 +13,10 @@
   </label>
   <label>
     Select a house:
-    <select name="house">
-     <option value="Gryffindor">Gryffindor</option>
-     <option value="Ravenclaw">RavenClaw</option>
-     <option value="Hufflepuff">Hufflepuff</option>
-     <option value="Slytherin">Slytherin</option>
+    <select name="house_id">
+    <% for house in @houses    %>
+     <option value=<%=house.id.to_i %>><%=house.name %></option>
+     <% end %>
     </select>
   </label>
   <label> 

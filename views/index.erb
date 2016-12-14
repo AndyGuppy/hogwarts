@@ -2,7 +2,8 @@
 <h2>   Hogwarts School of Idiots</h2>
 
 <% for student in @students   %>
-
+<div id= 'image'> <img src="<%=student.find_house_logo.logo%>" alt="logo" height="100" width="120"/></div>
+<div id = 'table'> Person
 <tr>
 <td><p>First Name: <%= student.first_name  %></p></td>
 </tr>
@@ -10,11 +11,12 @@
 <td><p>Last Name: <%= student.second_name  %></p></td>
 </tr>
 <tr>
-<td><p>House: <%= student.house  %></p></td>
+<td><p>House: <%= student.house_id  %></p></td>
 </tr>
 <tr>
 <td><p>Age: <%= student.age  %></p></td>
 </tr>
+</div>
 <hr>
 <br>
 

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  color:#000;  Default Text colour 
+ border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-size: 100% auto;
+    background-image: url("./images/background.jpg");
+}
+#image {
+  width: 10%;
+  height: 100px;
+  background: white;
+  float: left;
+}
+#table {
+  margin-left: 120px;
+  height: 100px;
+  background: white;
+}
+
+#content {
+  background-color: white;
+  margin: auto;
+  width: 35%;
+  border: 3px solid green;
+  padding: 10px;
+}
